@@ -25,11 +25,13 @@
     "lint"
   ],
   "peerDependencies": {
-    "stylelint": "^7.2.0"
+    "stylelint-scss": "^1.3.4"
   },
   "dependencies": {
     "stylelint": "^7.2.0",
-    "stylelint-config-standard": "^13.0.0"
+    "stylelint-config-css-modules": "^0.1.0",
+    "stylelint-config-standard": "^13.0.0",
+    "stylelint-scss": "^1.3.4"
   },
   "devDependencies": {
     "eslint-config-foray1010": "^3.6.0",
