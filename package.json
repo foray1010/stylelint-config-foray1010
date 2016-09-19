@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-foray1010",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "engines": {
     "node": ">= 4.2"
   },
@@ -17,7 +17,8 @@
   "bugs": "https://github.com/foray1010/stylelint-config-foray1010/issues",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "np"
   },
   "pre-commit": [
     "lint"
@@ -31,6 +32,7 @@
   },
   "devDependencies": {
     "eslint-config-foray1010": "^3.6.0",
+    "np": "^2.9.0",
     "pre-commit": "^1.1.3"
   }
 }
