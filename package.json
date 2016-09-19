@@ -25,6 +25,7 @@
     "lint"
   ],
   "peerDependencies": {
+    "stylelint": "^7.2.0",
     "stylelint-scss": "^1.3.4"
   },
   "dependencies": {
