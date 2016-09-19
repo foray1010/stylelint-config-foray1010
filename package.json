@@ -18,7 +18,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "publish": "np"
+    "publish": "np",
+    "test": "npm run lint"
   },
   "pre-commit": [
     "lint"
