@@ -2,7 +2,7 @@
   "name": "stylelint-config-foray1010",
   "version": "2.0.0",
   "engines": {
-    "node": ">= 4.2"
+    "node": ">=4.2"
   },
   "description": "my own stylelint config",
   "keywords": [
@@ -29,6 +29,7 @@
     "stylelint-config-standard": "^16.0.0"
   },
   "devDependencies": {
+    "eslint": "^3.17.1",
     "eslint-config-foray1010": "^4.0.0",
     "np": "^2.9.0",
     "pre-commit": "^1.1.3"
