@@ -1,14 +1,11 @@
 {
   "name": "stylelint-config-foray1010",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "engines": {
-    "node": ">=4.2"
+    "node": ">=8.9"
   },
   "description": "my own stylelint config",
-  "keywords": [
-    "config",
-    "stylelint"
-  ],
+  "keywords": ["config", "stylelint"],
   "private": false,
   "license": "MIT",
   "author": "foray1010",
@@ -17,19 +14,25 @@
   "bugs": "https://github.com/foray1010/stylelint-config-foray1010/issues",
   "main": "index.js",
   "scripts": {
+    "ignore-sync": "ignore-sync",
     "lint": "eslint .",
-    "np": "np",
-    "precommit": "npm run lint",
-    "test": "npm run lint"
+    "precommit": "lint-staged",
+    "test": "yarn lint"
+  },
+  "lint-staged": {
+    "*.js": ["prettier-eslint --write", "eslint --fix", "git add"],
+    "*.json": ["prettier-eslint --write", "git add"]
   },
   "dependencies": {
     "stylelint-config-css-modules": "^1.1.0",
-    "stylelint-config-standard": "^17.0.0"
+    "stylelint-config-standard": "^18.1.0"
   },
   "devDependencies": {
     "eslint": "^4.3.0",
-    "eslint-config-foray1010": "^5.0.0",
+    "eslint-config-foray1010": "^6.5.2",
     "husky": "^0.14.3",
-    "np": "^2.9.0"
+    "ignore-sync": "^1.0.1",
+    "lint-staged": "^6.0.0",
+    "prettier-eslint-cli": "^4.3.2"
   }
 }
