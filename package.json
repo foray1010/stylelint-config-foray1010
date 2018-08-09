@@ -28,7 +28,7 @@
     "stylelint-config-standard": "^18.1.0"
   },
   "devDependencies": {
-    "eslint": "^4.3.0",
+    "eslint": "^5.0.0",
     "eslint-config-foray1010": "^6.5.2",
     "husky": "^0.14.3",
     "ignore-sync": "^1.0.1",
