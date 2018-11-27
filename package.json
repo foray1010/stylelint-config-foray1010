@@ -30,7 +30,7 @@
     "eslint": "^5.0.0",
     "eslint-config-foray1010": "^6.5.2",
     "husky": "^1.1.2",
-    "ignore-sync": "^1.0.1",
+    "ignore-sync": "^2.0.0",
     "lint-staged": "^8.0.4",
     "prettier-eslint-cli": "^4.3.2"
   }
