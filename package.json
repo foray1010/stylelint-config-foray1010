@@ -17,6 +17,7 @@
   "bugs": "https://github.com/foray1010/stylelint-config-foray1010/issues",
   "main": "index.js",
   "scripts": {
+    "ci": "yarn lint",
     "ignore-sync": "ignore-sync",
     "lint": "eslint ."
   },
